@@ -1,0 +1,14 @@
+<div class="mb-3">
+  <label for="valorMonetario" class="form-label">Valor Monetário</label>
+  <input type="text"
+         class="form-control"
+         id="valorMonetario"
+         [value]="valor"
+         (input)="onValorChange($event)"
+         [ngClass]="{'is-invalid': !valorValido && valor !== ''}">
+
+  <div *ngIf="!valorValido && valor !== ''" class="invalid-feedback d-block">
+    Informe um valor maior que 0.
+  </div>
+</div>
+

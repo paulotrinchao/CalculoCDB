@@ -1,0 +1,4 @@
+<button class="btn btn-primary" (click)="enviarRequisicao()" [disabled]="carregando || disabled">
+  <span *ngIf="carregando" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  <span *ngIf="!carregando">Simular</span>
+</button>

@@ -1,0 +1,13 @@
+
+<div class="mb-3">
+  <label for="prazoMeses" class="form-label">Prazo (meses)</label>
+  <input type="text"
+         class="form-control"
+         [value]="prazoTexto"
+         (input)="onPrazoChange($event)"
+         [ngClass]="{'is-invalid': prazoInvalido}">
+
+  <div *ngIf="prazoInvalido" class="invalid-feedback">
+    Informe um número inteiro igual ou maior que 2.
+  </div>
+</div>

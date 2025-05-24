@@ -1,0 +1,22 @@
+<div class="container mt-4">
+  <h2 class="mb-4">Simulador CDB</h2>
+
+  <app-input-monetario (valorChange)="valorMonetario = $event"></app-input-monetario>
+  <app-input-prazo (prazoChange)="prazoMeses = $event"></app-input-prazo>
+
+  <app-botao-simular [valorMonetario]="valorMonetario"
+                     [prazoMeses]="prazoMeses"
+                     [disabled]="valorMonetario <= 0 || prazoMeses < 2"
+                     (resultadoEmitido)="resultado = $event"
+                     (erroEmitido)="erro = $event">
+  </app-botao-simular>
+
+  <div *ngIf="resultado" class="alert alert-success mt-4">
+    <p><strong>Resultado Bruto:</strong> {{ resultado.resultadoBruto | currency:'BRL':'symbol':'1.2-2':'pt-BR' }}</p>
+    <p><strong>Resultado Líquido:</strong> {{ resultado.resultadoLiquido | currency:'BRL':'symbol':'1.2-2':'pt-BR' }}</p>
+  </div>
+
+  <div *ngIf="erro" class="alert alert-danger mt-4">
+    {{ erro }}
+  </div>
+</div>

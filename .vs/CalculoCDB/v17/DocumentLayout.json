@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\CalculoCDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|FrontEnd\\FrontEnd.esproj|c:\\users\\user\\source\\repos\\calculocdb\\frontend\\src\\app\\components\\input-monetario\\input-monetario.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|FrontEnd\\FrontEnd.esproj|solutionrelative:frontend\\src\\app\\components\\input-monetario\\input-monetario.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|FrontEnd\\FrontEnd.esproj|c:\\users\\user\\source\\repos\\calculocdb\\frontend\\src\\app\\models\\resultado-api.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|FrontEnd\\FrontEnd.esproj|solutionrelative:frontend\\src\\app\\models\\resultado-api.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BEACA5-C155-41D8-84EA-5E4206CF8195}|Tests\\Tests.csproj|c:\\users\\user\\source\\repos\\calculocdb\\tests\\controllers\\rentabilidadecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BEACA5-C155-41D8-84EA-5E4206CF8195}|Tests\\Tests.csproj|solutionrelative:tests\\controllers\\rentabilidadecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|FrontEnd\\FrontEnd.esproj|c:\\users\\user\\source\\repos\\calculocdb\\frontend\\src\\app\\components\\input-monetario\\input-monetario.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|FrontEnd\\FrontEnd.esproj|solutionrelative:frontend\\src\\app\\components\\input-monetario\\input-monetario.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|FrontEnd\\FrontEnd.esproj|c:\\users\\user\\source\\repos\\calculocdb\\frontend\\frontend.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|FrontEnd\\FrontEnd.esproj|solutionrelative:frontend\\frontend.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BEACA5-C155-41D8-84EA-5E4206CF8195}|Tests\\Tests.csproj|c:\\users\\user\\source\\repos\\calculocdb\\tests\\services\\cdbcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BEACA5-C155-41D8-84EA-5E4206CF8195}|Tests\\Tests.csproj|solutionrelative:tests\\services\\cdbcalculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "input-monetario.component.html",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CalculoCDB\\FrontEnd\\src\\app\\components\\input-monetario\\input-monetario.component.html",
+              "RelativeDocumentMoniker": "FrontEnd\\src\\app\\components\\input-monetario\\input-monetario.component.html",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CalculoCDB\\FrontEnd\\src\\app\\components\\input-monetario\\input-monetario.component.html",
+              "RelativeToolTip": "FrontEnd\\src\\app\\components\\input-monetario\\input-monetario.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-24T20:40:52.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "input-monetario.component.ts",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CalculoCDB\\FrontEnd\\src\\app\\components\\input-monetario\\input-monetario.component.ts",
+              "RelativeDocumentMoniker": "FrontEnd\\src\\app\\components\\input-monetario\\input-monetario.component.ts",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CalculoCDB\\FrontEnd\\src\\app\\components\\input-monetario\\input-monetario.component.ts",
+              "RelativeToolTip": "FrontEnd\\src\\app\\components\\input-monetario\\input-monetario.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-05-24T20:36:59.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "resultado-api.model.ts",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CalculoCDB\\FrontEnd\\src\\app\\models\\resultado-api.model.ts",
+              "RelativeDocumentMoniker": "FrontEnd\\src\\app\\models\\resultado-api.model.ts",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CalculoCDB\\FrontEnd\\src\\app\\models\\resultado-api.model.ts",
+              "RelativeToolTip": "FrontEnd\\src\\app\\models\\resultado-api.model.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-05-24T20:36:46.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CdbCalculatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CalculoCDB\\Tests\\Services\\CdbCalculatorTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Services\\CdbCalculatorTests.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CalculoCDB\\Tests\\Services\\CdbCalculatorTests.cs",
+              "RelativeToolTip": "Tests\\Services\\CdbCalculatorTests.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAjwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T20:29:53.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RentabilidadeControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CalculoCDB\\Tests\\Controllers\\RentabilidadeControllerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Controllers\\RentabilidadeControllerTests.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CalculoCDB\\Tests\\Controllers\\RentabilidadeControllerTests.cs",
+              "RelativeToolTip": "Tests\\Controllers\\RentabilidadeControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T20:22:32.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrontEnd",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CalculoCDB\\FrontEnd\\FrontEnd.esproj",
+              "RelativeDocumentMoniker": "FrontEnd\\FrontEnd.esproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CalculoCDB\\FrontEnd\\FrontEnd.esproj",
+              "RelativeToolTip": "FrontEnd\\FrontEnd.esproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-24T20:22:20.15Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
