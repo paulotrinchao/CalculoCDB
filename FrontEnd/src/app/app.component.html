@@ -12,11 +12,13 @@
   </app-botao-simular>
 
   <div *ngIf="resultado" class="alert alert-success mt-4">
+    <h2>Retorno do Investimento:</h2>
     <p><strong>Resultado Bruto:</strong> {{ resultado.resultadoBruto | currency:'BRL':'symbol':'1.2-2':'pt-BR' }}</p>
     <p><strong>Resultado Líquido:</strong> {{ resultado.resultadoLiquido | currency:'BRL':'symbol':'1.2-2':'pt-BR' }}</p>
   </div>
 
   <div *ngIf="erro" class="alert alert-danger mt-4">
+    <h2>Falha na Operação:</h2>
     {{ erro }}
   </div>
 </div>
