@@ -11,9 +11,8 @@ namespace Domain.Services
 
         public InvestimentoResponse CalcularInvestimento(InvestimentoRequest input)
         {
-            var valorFinal = _cdbCalculator.CalcularCDB(input.ValorMonetario, input.PrazoMeses);                   
-            var imposto =   _imposto.CalcularImposto((valorFinal - input.ValorMonetario), input.PrazoMeses)   ;
-            var valorLiquido = valorFinal - imposto;
+            var valorFinal = _cdbCalculator.CalcularCDB(input.ValorMonetario, input.PrazoMeses);
+            var valorLiquido = valorFinal - _imposto.CalcularImposto((valorFinal - input.ValorMonetario), input.PrazoMeses);
 
             return new InvestimentoResponse(valorFinal.Round(2),valorLiquido.Round(2));
         }

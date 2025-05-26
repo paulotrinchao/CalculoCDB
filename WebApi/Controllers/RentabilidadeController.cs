@@ -12,6 +12,8 @@ namespace WebApi.Controllers
         private readonly ILogger<RentabilidadeController> _logger = logger;
 
         [HttpPost("cdb")]
+        [ProducesResponseType(typeof(InvestimentoResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
         public IActionResult Calcular([FromBody] InvestimentoRequest request)
         {
             if (request.ValorMonetario <= 0 || request.PrazoMeses <= 1)
