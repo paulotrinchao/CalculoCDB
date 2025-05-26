@@ -1,9 +1,11 @@
-﻿using Domain.Interfaces;
+﻿using Domain.Exceptions;
+using Domain.Interfaces;
 
 namespace Domain.Services
 {
     public class Imposto : IImposto
     {
+      
         public decimal ObterAliquota(int meses) =>
                                                    meses switch
                                                    {
@@ -15,8 +17,8 @@ namespace Domain.Services
 
         public decimal CalcularImposto(decimal valorBase, int meses)
         {
-            ArgumentOutOfRangeException.ThrowIfNegativeOrZero(valorBase, "O valor deve ser maior que zero.");
-
+            NumericExcecao.ThrowIfNegativeOrZero(nameof(valorBase), valorBase, "O valor deve ser maior que zero.");
+           
             return (valorBase * ObterAliquota(meses));
         }
     }
