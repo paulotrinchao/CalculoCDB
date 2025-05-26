@@ -1,6 +1,7 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HttpClient, provideHttpClient } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
+import { config } from '../../config';
 
 @Component({
   selector: 'app-botao-simular',
@@ -18,12 +19,12 @@ export class BotaoSimularComponent {
 
   carregando = false;
 
-  constructor(private http: HttpClient) { }
+  constructor(private readonly http: HttpClient) { }
 
   enviarRequisicao() {
     this.carregando = true;
 
-    this.http.post<any>('https://localhost:44375/api/Rentabilidade/cdb', {
+    this.http.post<any>(`${config.apiUrl}`, {
       valorMonetario: this.valorMonetario,
       prazoMeses: this.prazoMeses
     }).subscribe({
@@ -33,7 +34,7 @@ export class BotaoSimularComponent {
         this.carregando = false;
       },
       error: err => {
-        this.erroEmitido.emit(err.error || 'Erro inesperado.');
+        this.erroEmitido.emit(err.error ?? 'Erro inesperado.');
         this.resultadoEmitido.emit(null);
         this.carregando = false;
       }
